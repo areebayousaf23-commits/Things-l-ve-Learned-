@@ -1,0 +1,54 @@
+function App() {
+  return (
+    <div style={{ padding: "20px", fontFamily: "serif" }}>
+      <h1>Things I've Learned</h1>
+
+      {/* Internet Basics */}
+      <h2>Internet Basics</h2>
+      <ol>
+        <li>HTTP Requests</li>
+        <li>IP Address</li>
+        <li>Servers</li>
+      </ol>
+
+      {/* HTML Section */}
+      <h2>HTML</h2>
+      <ul>
+        <li>
+          Stands for <strong>Hyper Text Markup Language</strong>
+        </li>
+        <li>
+          Lots of Tags
+          <ul>
+            <li>
+              Boilerplate
+              <ol>
+                <li>Doctype</li>
+                <li>HTML</li>
+                <li>
+                  Head
+                  <ol>
+                    <li>Title</li>
+                  </ol>
+                </li>
+                <li>Body</li>
+              </ol>
+            </li>
+            <li>Headings</li>
+            <li>Paragraph</li>
+            <li>
+              <em>em</em>
+            </li>
+            <li>
+              <strong>strong</strong>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  );
+}
+
+export default App;
+
+

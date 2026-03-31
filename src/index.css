@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #0a1400, #1f3b08);
+  color: white;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #1c2b0f;
+  margin: 10px auto;
+  padding: 12px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10ppx rgba(0, 0, 0, 0.5);
+}
